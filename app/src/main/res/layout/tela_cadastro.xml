@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Fazer Cadastro"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Insira seu Nome:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edNome"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Insira seu Endereço:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEnd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEnd"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Insira seu Telefone:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTel"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edTel"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:text="Cadastrar"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btCan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btCad"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Cancelar"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

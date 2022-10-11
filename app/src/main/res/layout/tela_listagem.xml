@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Listagem"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Regitros"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReg"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Nome:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtNome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="[NOME]"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome2"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Endereço:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtEnd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEnd"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="[ENDEREÇO]"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEnd2"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Telefone:"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtTel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTel"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="[TELEFONE]"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/btAnte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTel2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="80dp"
+        android:text="Anterior"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btProx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btAnte"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Próximo"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btFechar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btProx"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Fechar"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btFechar"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+</RelativeLayout>
